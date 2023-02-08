@@ -6,7 +6,7 @@
 
       <div>
         <h1 class="text-4xl font-bold headers">
-          <router-link to="/" @click="scrollTop">Aaron</router-link>
+          <router-link to="/" @click="scrollTop">Pans</router-link>
         </h1>
       </div>
       <div class="text-2xl inline-block px-10 pt-[0.4rem]">
@@ -32,7 +32,7 @@
       <div class="rightSide flex flex-row gap-4">
         <!-- select theme icon -->
         <NavbarIcons :selected-icon="'themeSelector'" />
-        <NavbarIcons :selected-icon="'gitSource'" />
+        <!-- <NavbarIcons :selected-icon="'gitSource'" /> -->
         <!-- drop down section  -->
       </div>
     </div>
@@ -44,7 +44,7 @@
       <div>
         <h1 class="text-3xl font-bold sm:-ml-[0px]">
           <router-link to="/" @click="scrollTop" class="scroll-smooth">
-            Aaron
+            PANS
           </router-link>
         </h1>
       </div>
@@ -105,17 +105,21 @@ export default {
 
 	setup(props) {
 		const webRoutes = {
-			contact: {
-				title: 'Contact',
-				route: '/contact'
-			},
-			skills: {
-				title: 'Skills',
-				route: '/skills'
-			},
+//			contact: {
+//				title: 'Contact',
+//				route: '/contact'
+//			},
+//			skills: {
+//				title: 'Skills',
+//				route: '/skills'
+//			},
 			works: {
-				title: 'Works',
+				title: 'Latest Project',
 				route: '/work'
+			},
+      artworks: {
+				title: 'Artworks',
+				route: '/artworks'
 			}
 		};
 

@@ -5,6 +5,7 @@ import Work from './views/MainWorks.vue';
 import Skills from './views/MainSkills.vue';
 import contact from './views/MainContact.vue';
 import notfound from './views/MainErrorPage.vue';
+import Artworks from  './views/MainArtworks.vue';
 import ngl from './views/MainNGL.vue';
 
 export default createRouter({
@@ -32,6 +33,12 @@ export default createRouter({
 			path: '/contact',
 			name: 'contact',
 			component: contact,
+			props: true
+		},
+		{
+			path: '/artworks',
+			name: 'artworks',
+			component: Artworks,
 			props: true
 		},
 		{

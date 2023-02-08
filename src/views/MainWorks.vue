@@ -9,7 +9,7 @@
     </div>
     <br />
     <div>
-      <h2 class="text-2xl font-bold underline underline-offset-1">Works</h2>
+      <h2 class="text-2xl font-bold underline underline-offset-1">Projects</h2>
     </div>
     <br />
     <div class="flex flex-col divCenter pt-5">
@@ -27,7 +27,7 @@
         <div class="xl:max-w-[40rem] w-auto 2xl:block hidden">
           <img
             :src="value.Image"
-            class="bg-auto bg-center rounded-md border-2 min-w-32"
+            class="shadow-xl bg-auto bg-center rounded-md border-10 min-w-32"
           />
           <TagsComponent :tagSettings="value.Tags" class="pt-3" />
         </div>
@@ -42,7 +42,7 @@
           <div class="xl:max-w-[40rem] w-auto 2xl:hidden flex flex-col">
             <img
               :src="value.Image"
-              class="bg-auto bg-center rounded-md border-2"
+              class="shadow-xl bg-auto bg-center rounded-md border-10 min-w-32"
             />
             <TagsComponent :tagSettings="value.Tags" class="pt-3 pb-3" />
           </div>
@@ -58,7 +58,7 @@
           </p>
           <br />
           <strong class="decoration-2 underline"
-            ><a :href="value.Github">View this project on Github</a>
+            ><a :href="value.Github"></a>
           </strong>
           <div v-if="isInMobile" class="mt-3">
             <br />
@@ -109,7 +109,7 @@ export default {
 				instance.destroy();
 			},
 		})
-			.type('Here are a list of my personal projects!')
+			.type('Here are a list of my personal projects !')
 			.go();
 
 		if (window.innerWidth < 1536) {

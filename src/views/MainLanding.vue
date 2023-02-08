@@ -9,72 +9,41 @@
       ></p>
     </div>
     <section class="">
-      <h1 class="text-4xl font-bold">Aaron Lyn</h1>
-      <h3 class="text-lg">Professional web developer</h3>
+      <h1 class="text-4xl font-bold">Panji Maulana Buckriawan</h1>
+      <h3 class="text-lg">System Information Fresh Graduate</h3>
     </section>
     <section class="pt-2">
-      <h2
-        class="lg:text-2xl text-lg font-bold underline underline-offset-8 decoration-2"
-      >
-        Professional background
+      <h2 class="lg:text-2xl text-lg font-bold underline underline-offset-8 decoration-2">
+        About Me
       </h2>
       <br />
       <p class="lg:text-lg text-sm text-justify leading-6">
-        &nbsp;&nbsp;&nbsp;&nbsp; Professional junior web developer capable
-        professional looking and user-friendly websites from stratch and writes
-        <strong>performance optimized, reusable and refactorable codes</strong>.
-        Professionally developed 5 web applications with multiple Javascript
-        frameworks.
+        &nbsp;&nbsp;&nbsp;&nbsp; My name is Panji Maulana Buckriawan, 
+        I’m a 22 years old male and a fresh graduate with bachelors degree in information systems who is familiar with system development and graphic design. 
+        I’m a creative and an organized person who likes to get job done efficiently and in best way possible, 
+        good at analysis and able to work and communicate well with a team on a project.
       </p>
       <br />
-      <p class="lg:text-lg text-sm text-justify leading-6">
-        <!-- &nbsp;&nbsp;&nbsp;&nbsp; -->
-        Hungry for knowledge, collaborative individual and possess analytical
-        skills. Enjoys problem solving and willing to adapt to changes in the
-        industry to stay on top.
-      </p>
     </section>
-    <!-- info section -->
-    <section class="">
-      <h2
-        class="lg:text-2xl text-lg font-bold underline underline-offset-8 decoration-2"
-      >
-        Bio
+    <section>
+      <h2 class="lg:text-2xl text-lg font-bold underline underline-offset-8 decoration-2">
+        My Contact
       </h2>
       <br />
-      <p class="lg:text-lg text-sm text-justify leading-6">
-        &nbsp;&nbsp;&nbsp;&nbsp; Aaron has a strong passion on technology and
-        computers. Outside of programmimg, Aaron has a hobby of collecting and
-        engage with technology. He likes to tinker with his Arch Linux Operating
-        System and enjoys collecting custom keyboards.
-      </p>
-    </section>
-    <!-- journey section -->
-    <section class="">
-      <h2
-        class="lg:text-2xl text-lg font-bold underline underline-offset-8 decoration-2"
-      >
-        Journey
-      </h2>
-      <br />
-      <div class="flex flex-col gap-2">
-        <!-- year 2017 -->
-        <p class="lg:text-lg text-sm text-justify">
-          <strong>2017:</strong>
-          &nbsp; Started journey on programming as a hobby
-        </p>
-        <!-- year 2020 -->
-        <p class="lg:text-lg text-sm text-justify">
-          <strong>2020:</strong>
-          &nbsp; Enrolled for diploma of ICT with specalism in software
-          engineering
-        </p>
-        <!-- year 2022  -->
-        <p class="lg:text-lg text-sm text-justify">
-          <strong>2022:</strong>
-          &nbsp; Started journey on web development
-        </p>
-      </div>
+      <ul>
+        <li class="list-disc transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-10 duration-300">
+          <a href="https://twitter.com/buckriawan" class="font-medium text-blue-600 dark:text-blue-500">Twitter</a>
+        </li>
+        <li class="list-disc transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-10 duration-300">
+          <a href="https://www.instagram.com/buckriawan/" class="font-medium text-blue-600 dark:text-blue-500">Instagram</a>
+        </li>
+        <li class="list-disc transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-10 duration-300">
+          <a href="https://www.linkedin.com/in/panjimb/" class="font-medium text-blue-600 dark:text-blue-500">Linkdn</a>
+        </li>
+        <li class="font-medium text-blue-600 dark:text-blue-500 list-disc transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-10 duration-300">
+          panjim0b@gmail.com
+        </li>
+      </ul>
     </section>
   </div>
 </template>
@@ -108,7 +77,7 @@ export default {
 				instance.destroy();
 			},
 		})
-			.type('Hello! I am a full stack web developer based in Malaysia.')
+			.type('Welcome stranger, take a look around !')
 			.go();
 	},
 };

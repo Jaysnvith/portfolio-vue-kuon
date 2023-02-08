@@ -1,26 +1,26 @@
 [
     {
-        "Image": "./assets/images/work1.png",
-        "Title": "Shopify Clone",
-        "Description": "Shopify is a popular E-commerce website that allows the user to setup an online store and sell their products. This project clones the basic functionalities of shopify such as user interface, user authentication functionalities, along with adding products to database ",
-        "Sidenote": "This is Aaron's first project developed in Vue3 and Laravel",
+        "Image": "./assets/images/Fantasia.png",
+        "Title": "Fantasia",
+        "Description": "Fantasia is a 2d pixel art side scroller game made with unity engine. It's a story driven single player game with the atmosphere as it's focus, inspired by many other souls like games.",
+        "Sidenote": " Fantasia is my university final project.",
         "Github": "https://github.com/Kuon-dev/Shopify-Clone",
-        "Tags": ["Vue3", "Laravel", "PHP", "MySQL", "TailwindCSS"]
+        "Tags": ["Unity", "C#", "Adobe Photoshop"]
     },
     {
-        "Image": "./assets/images/work2.png",
-        "Title": "Mersing Website with Chatbot",
-        "Description": "Mersing is a tourism spot located in West Malaysia, the purpose of this website is to boost the tourism industry of this location by making a AI Chatbot powered by Microsoft Virtual Agent ",
-        "Sidenote": "",
+        "Image": "./assets/images/wp1.png",
+        "Title": "Wired City",
+        "Description": "Wired City is a blogsite made in Wordpress that uses plugins such as Elementor, Yoast SEO, Disquss, Astra, and More. The site is primarily used for blogging and has other feature supporting it.",
+        "Sidenote": "Wired City my an independent study project with kampus merdeka.",
         "Github": "https://github.com/Kuon-dev/IaI-project",
-        "Tags": ["Vue3", "TailwindCSS", "Microsoft Virtual Agent", "API"]
+        "Tags": ["Wordpress", "Elementor", "Yoast SEO"]
     },
     {
-        "Image": "./assets/images/work3.png",
-        "Title": "Paws Heaven E-commerce Website",
-        "Description": "Paws Heaven is an online E-commerce website developed by a team of 3 developers. Paws Heaven offers a variety of pet products such as food, vitamins and cages ",
-        "Sidenote": "",
-        "Github": "https://github.com/Kuon-dev/WDT-assignment",
-        "Tags": ["PHP", "HTML5", "CSS3", "MYSQL"]
+        "Image": "./assets/images/wp2.png",
+        "Title": "Wired Gun Store",
+        "Description": "Wired Gun Store is an e-commerce website made in Wordpress that uses plugins such as Elementor, WooCommerce, Jivochat, and More. The site is primarily used as a marketplace for selling a product.",
+        "Sidenote": "Wired City my an independent study project with kampus merdeka.",
+        "Github": "https://github.com/Kuon-dev/IaI-project",
+        "Tags": ["Wordpress", "Elementor", "Yoast SEO"]
     }
 ]
